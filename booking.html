@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Бронирование</title>
+</head>
+<body>
+	<header class="page-header">
+		<div class="page-header__inner">
+			<a href="" class="logo"><img src="#" alt="Green Valley"></a>
+			<nav class="main-nav">
+				<ul class="main-nav__list">
+					<li class="main-nav__item"><a href="#" class="main-nav__link">Номера</a></li>
+					<li class="main-nav__item"><a href="#" class="main-nav__link">Коттедж</a></li>
+					<li class="main-nav__item"><a href="#" class="main-nav__link">Ресторан</a></li>
+					<li class="main-nav__item"><a href="#" class="main-nav__link">Отдых</a></li>
+					<li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
+				</ul>
+
+				<span class="main-nav__burger"></span>
+
+			</nav>
+
+			<div class="page-header__contacts">
+				<a href="tel:+78127775588">+7 812 777-55-88</a>
+				г. Санкт-Петербург, Приморское ш.800
+			</div>
+			
+			<a href="#" class="btn btn--icon-calendar">Забронировать</a>
+
+		</div>
+	</header>
+
+	<div class="page-title">
+		<h1>Бронирование</h1>
+		<p>
+			Чтобы забронировать номер в отеле или коттедж, заполните форму ниже илипросто позвоните по телефону: <a href="tel:+7-812-777-55-88">+7 812 777-55-88</a>
+		</p>
+	</div>
+
+	<form action="post">
+		
+		<section class="rest-date">
+			<span class="rest-date__step">шаг 1</span>
+			<p class="rest-date__title">Дата отдыха</p>
+			<div class="rest-date__inner">
+			<label for="checkin" class="rest-date__check-in">Дата въезда<input type="date" name="checkin"></label>
+			<label for="checkout" class="rest-date__check-out">Дата выезда<input type="date" name="checkout"></label>
+			</div>
+		</section>
+		
+		<section class="rest-place">
+			<span class="rest-place__step">шаг 2</span>
+			<p class="rest-place__title">место проживания</p>
+			<div class="rest-place__inner">
+				<label for="room">отель</label><label for="house">house</label>
+			</div>
+		</section>
+
+				<input type="radio" name="rest-place" id="room">
+				<input type="radio" name="rest-place" id="house">
+
+		<section class="house-type">
+			<span class="house-type__step">шаг 3</span>
+			<p class="house-type__title">Тип коттеджа</p>
+			<div class="house-type__inner">
+				<ul class="house-type__list">
+					<li class="house-type__item house-type__item--checked">
+						Флагман
+						<ul class="house-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+					<li class="house-type__item">
+						Озёрный
+						<ul class="house-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+					<li class="house-type__item">
+						Ольховка
+						<ul class="house-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+					<li class="house-type__item">
+						Портовый
+						<ul class="house-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+				</ul>
+			</div>	
+		</section>
+
+
+		<section class="room-type">
+			<span class="room-type__step">шаг 3</span>
+			<p class="room-type__title">Тип номера</p>
+			<div class="room-type__inner">
+				<ul class="room-type__list">
+					<li class="room-type__item room-type__item--checked">
+						Эконом
+						<ul class="room-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+					<li class="room-type__item">
+						Стандарт
+						<ul class="room-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+					<li class="room-type__item">
+						Стандарт +
+						<ul class="room-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+					<li class="room-type__item">
+						Люкс
+						<ul class="room-type__description">
+							<li>Площадь 100 М <sup>2</sup></li>
+							<li>3 комнаты</li>
+							<li>5 спальных мест</li>
+							<li>раздельный санузел</li>
+							<li>WI-FI</li>
+						</ul>
+					</li>
+				</ul>
+			</div>	
+		</section>
+
+		<section class="personal-info">
+			<span class="personal-info__step">шаг 4</span>
+			<p class="personal-info__title">Персональная информация</p>
+			<div class="personal-info__inner">
+				<input type="name" name="name" placeholder="Имя" class="personal-info__name">
+				<input type="name" name="sname" placeholder="Фамилия" class="personal-info__sname">
+				<input type="phone" name="phone" placeholder="Номер телефона" class="personal-info__phone">
+				<label for="phone">Мы свяжемся с вами в случае необходимости</label>
+				<input type="email" name="e-mail" placeholder="e-mail" class="personal-info__email">
+				<label for="e-mail">На этот адрес мы вышлем вам подтверждение о забронированном номере</label>
+			</div>
+		</section>
+		
+		<section class="payment">
+			<span class="payment__step">шаг 5</span>
+			<p class="payment__title">Способ оплаты</p>
+				<div class="payment__inner">
+					
+					<aside class="payment-total">
+						<p class="payment-total__title">к оплате</p>
+					</aside>
+					
+					<section class="payment-later">
+						<label for="pay-later">
+							<input type="checkbox" name="pay-later">
+							По приезду
+							<p>Вы можете произвести оплату по факту заселения</p>
+						</label>
+					</section>
+					
+					<section class="payment-now">
+						<label for="pay-now" class="payment-now__selection">
+							<input type="checkbox" name="pay-now">
+							Сейчас
+							<p>Прямо сейчас вы можете произвести оплату с помощью банковской карты</p>
+						</label>
+
+						<label for="card-number" class="payment-now__card-number">Номер карты<input type="text" name="card-number" placeholder="0000-0000-0000-0000"></label>
+
+						<label for="CVV" class="payment-now__card-cvv">Код CVV<input type="text" name="CVV" placeholder="123"></label>
+
+						<label for="card-holder" class="payment-now__cardholder">Фамилия владельца карты<input type="text" name="card-holder" placeholder="Vladimir Vladimirov"></label>
+
+						<label for="card-date" class="payment-now__card-date">Действует до<input type="text" name="card-date" placeholder="01 / 2018"></label>
+					</section>
+
+					<input type="submit" class="btn btn--submit" value="Забронировать ">
+
+				</div>
+
+		</section>
+
+	</form>
+
+	<footer class="page-footer">
+		<p class="page-footer__address">г. Санкт-Петербург Приморское ш.600</p>
+		<ul class="page-footer__social">
+			<img src="#" alt="Green Valley">
+			<li><a href="#" class="page-footer__social--vk"></a></li>
+			<li><a href="#" class="page-footer__social--inst"></a></li>
+			<li><a href="#" class="page-footer__social--fb"></a></li>
+		</ul>
+
+		<p class="page-footer__contacts"><a href="tel:+7-812-777-55-88">+7 812 777-55-88</a> <a href="mailto:info@greenvalley.ru">info@greenvalley.ru</a></p>
+
+	</footer>
+
+</body>
+</html>
