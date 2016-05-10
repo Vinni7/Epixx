@@ -1,4 +1,44 @@
 @import '../css/normalize.css';
+/* pt-serif-caption-regular - latin_cyrillic */
+@font-face {
+  font-family: 'PT Serif Caption';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/pt-serif-caption-v8-latin_cyrillic-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('PT Serif Caption'), local('PTSerif-Caption'), url('../fonts/pt-serif-caption-v8-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/pt-serif-caption-v8-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/pt-serif-caption-v8-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/pt-serif-caption-v8-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/pt-serif-caption-v8-latin_cyrillic-regular.svg#PTSerifCaption') format('svg');
+  /* Legacy iOS */
+}
+/* fira-sans-regular - cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/fira-sans-v5-cyrillic-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Fira Sans'), local('FiraSans-Regular'), url('../fonts/fira-sans-v5-cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/fira-sans-v5-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-regular.woff') format('woff'), /* Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/fira-sans-v5-cyrillic-regular.svg#FiraSans') format('svg');
+  /* Legacy iOS */
+}
+/* fira-sans-500 - cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../fonts/fira-sans-v5-cyrillic-500.eot');
+  /* IE9 Compat Modes */
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url('../fonts/fira-sans-v5-cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/fira-sans-v5-cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-500.woff') format('woff'), /* Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/fira-sans-v5-cyrillic-500.svg#FiraSans') format('svg');
+  /* Legacy iOS */
+}
+/* fira-sans-700 - cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/fira-sans-v5-cyrillic-700.eot');
+  /* IE9 Compat Modes */
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url('../fonts/fira-sans-v5-cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/fira-sans-v5-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-700.woff') format('woff'), /* Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/fira-sans-v5-cyrillic-700.svg#FiraSans') format('svg');
+  /* Legacy iOS */
+}
 body {
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
