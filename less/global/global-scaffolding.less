@@ -1,8 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
 	font-family: @font-family;
 	font-size: @text-size;
 	line-height: @line-height;
 	color: @gray-dark;
-	margin: 0;
-	padding: 0;
+}
+
+h1, h2, h3 {
+	color: @gray-dark;
+	font-family: @font-family-heading;
+}
+
+a {
+	text-decoration: none;
 }

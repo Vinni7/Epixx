@@ -39,11 +39,25 @@
   src: local('Fira Sans Bold'), local('FiraSans-Bold'), url('../fonts/fira-sans-v5-cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/fira-sans-v5-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-700.woff') format('woff'), /* Modern Browsers */ url('../fonts/fira-sans-v5-cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/fira-sans-v5-cyrillic-700.svg#FiraSans') format('svg');
   /* Legacy iOS */
 }
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Fira Sans', sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #191919;
-  margin: 0;
-  padding: 0;
+}
+h1,
+h2,
+h3 {
+  color: #191919;
+  font-family: 'PT Serif Capation', sans-serif;
+}
+a {
+  text-decoration: none;
 }
