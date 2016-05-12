@@ -1,0 +1,25 @@
+.btn {
+	font-size: @text-size-small;
+	line-height: @line-height-small;
+	font-family: @font-family;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.btn--icon-calendar {
+	padding: 14px 20px 12px 50px;
+	background-color: @color-second;
+	color: #ffffff;
+	border-radius: 30px;
+	position: relative;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 15px;
+		height: 16px;
+		background: url('../img/icon_calendar.png');
+		top: 30%;
+		left: 12%;
+	}
+}

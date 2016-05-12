@@ -1,0 +1,28 @@
+.main-nav {
+	display: inline-block;
+	font-size: 0;
+}
+.main-nav__list {
+	font-size: 0;
+	list-style: none;	
+	padding: 0;
+	max-height: 14px;
+}
+.main-nav__item {
+	display: inline-block;
+	margin-right: @margin;
+	max-height: 14px;
+	&:last-child {
+		margin: 0;
+	}
+}
+.main-nav__link {
+	font-size: @text-size-small;
+	line-height: normal;
+	font-family: @font-family;
+	color: @gray-dark;
+	text-transform: uppercase;
+	&:hover {
+		color: @color-second;
+	}
+}
