@@ -153,3 +153,6 @@ a {
   top: 30%;
   left: 12%;
 }
+.btn--icon-calendar:hover {
+  background-color: #e85715;
+}
