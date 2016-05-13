@@ -2,11 +2,16 @@
 	width: 100%;
 	background-color: #fff;
 	border-bottom: 1px solid @gray-lighter;
+	margin: 0;
+	padding: 0;
 }
 .page-header__inner {
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 15px 10px 20px 10px;
 	.logo {;
+		display: inline-block;
+		vertical-align: middle;
 		text-align: center;
 		img {
 			display: inline-block;
@@ -14,6 +19,7 @@
 	}
 }
 .page-header__contacts {
+	padding:5px 0;
 	font-family: @font-family;
 	font-size: @text-size-small;
 	line-height: @line-height-small;
@@ -27,4 +33,7 @@
 		font-weight: normal;
 		margin-bottom: @margin / 5;
 	}
+}
+.page-header__btn-container {
+	padding: 5px 0;
 }
