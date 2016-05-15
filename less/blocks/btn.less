@@ -6,26 +6,41 @@
 	font-family: @font-family;
 	font-weight: normal;
 	text-transform: uppercase;
-}
-
-.btn--icon-calendar {
-	padding: 14px 20px 12px 50px;
 	background-color: @color-second;
 	color: #ffffff;
-	border-radius: 30px;
-	position: relative;
-	&:before {
-		content: '';
-		display: block;
-		position: absolute;
-		width: 15px;
-		height: 16px;
-		background: url('../img/icon_calendar.png');
-		top: 30%;
-		left: 12%;
-	}
+	padding: 14px 30px 12px 30px; 
+	border-radius: 25px;
+
 	&:hover {
 		background-color: @color-second-hvr;
 		color: #fff;
 	}
+	&:visited {
+		color: #fff;
+	}
+
+	&--icon-calendar {
+		padding: 14px 20px 12px 50px;
+		position: relative;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 15px;
+			height: 16px;
+			background: url('../img/icon_calendar.png');
+			top: 30%;
+			left: 12%;
+		}
+
+		&:hover {
+			background-color: @color-second-hvr;
+			color: #fff;
+		}
+		&:visited {
+			color: #fff;
+		}
+	}
+
 }

@@ -1,0 +1,52 @@
+.room {
+	border: 1px solid @gray-lighter;
+	background-color: @gray-white;
+	margin-bottom: 40px;
+}
+
+.room-desription {
+	&__title {
+		font-family: @font-family-heading;
+		font-size: @text-size-big;
+		line-height: normal;
+		letter-spacing: 2px;
+		color: @gray-dark;
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+
+	&__price {
+		font-family: @font-family;
+		font-size: @text-size-small;
+		line-height: @line-height-accent;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 0;
+		color: @gray-dark;
+
+		b {
+			font-size: 18px;
+			line-height: @line-height-accent;
+			color: @color-second;
+		}
+	}
+
+	&__text {
+		font-family: @font-family;
+		color: @gray-dark;
+		font-size: @text-size;
+		line-height: @line-height;
+	}
+
+	&__read-more {
+		font-family: @font-family;
+		color: @gray-dark;
+		font-size: @text-size-small;
+		line-height: @line-height-small;
+		text-transform: uppercase;
+		border-bottom: 1px dashed @gray-dark;
+		font-weight: 500;
+	}
+}

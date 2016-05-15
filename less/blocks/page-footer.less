@@ -1,0 +1,27 @@
+.page-footer {
+	width: 100%;
+	border-top: 1px solid @gray-lighter;
+	&__inner {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 25px 0;
+	}
+
+	&__address {
+		color: @gray-dark;
+		font-family: @font-family;
+		font-size: @text-size;
+		line-height: @text-size + 6px;
+	}
+	
+		&__contacts a {
+			color: @gray-dark;
+			font-family: @font-family;
+			font-size: @text-size;
+			line-height: @text-size + 6px;
+
+			&:hover {
+				color: @color-second;
+			}
+		}
+}

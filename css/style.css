@@ -5176,6 +5176,44 @@ a {
   height: 24px;
   background-image: url('../img/burger.png');
 }
+.page-footer {
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+}
+.page-footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+.page-footer__address {
+  color: #191919;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  line-height: 22px;
+}
+.page-footer__contacts a {
+  color: #191919;
+  font-family: 'Fira Sans';
+  font-size: 16px;
+  line-height: 22px;
+}
+.page-footer__contacts a:hover {
+  color: #ff7435;
+}
+.footer-social {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer-social img {
+  display: block;
+  margin: 0 auto;
+}
+.footer-social li {
+  display: inline-block;
+}
 .btn {
   display: inline-block;
   vertical-align: middle;
@@ -5184,13 +5222,21 @@ a {
   font-family: 'Fira Sans';
   font-weight: normal;
   text-transform: uppercase;
+  background-color: #ff7435;
+  color: #ffffff;
+  padding: 14px 30px 12px 30px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+.btn:hover {
+  background-color: #e85715;
+  color: #fff;
+}
+.btn:visited {
+  color: #fff;
 }
 .btn--icon-calendar {
   padding: 14px 20px 12px 50px;
-  background-color: #ff7435;
-  color: #ffffff;
-  -webkit-border-radius: 30px;
-  border-radius: 30px;
   position: relative;
 }
 .btn--icon-calendar:before {
@@ -5205,6 +5251,9 @@ a {
 }
 .btn--icon-calendar:hover {
   background-color: #e85715;
+  color: #fff;
+}
+.btn--icon-calendar:visited {
   color: #fff;
 }
 .page-title {
@@ -5250,4 +5299,49 @@ a {
 .categories__inner {
   max-width: 1200px;
   margin: 0 auto;
+}
+.room {
+  border: 1px solid #ebebeb;
+  background-color: #fafafa;
+  margin-bottom: 40px;
+}
+.room-desription__title {
+  font-family: 'PT Serif Capation';
+  font-size: 26px;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #191919;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.room-desription__price {
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #191919;
+}
+.room-desription__price b {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ff7435;
+}
+.room-desription__text {
+  font-family: 'Fira Sans';
+  color: #191919;
+  font-size: 16px;
+  line-height: 22px;
+}
+.room-desription__read-more {
+  font-family: 'Fira Sans';
+  color: #191919;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #191919;
+  font-weight: 500;
 }
