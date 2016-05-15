@@ -1,10 +1,20 @@
 .room {
 	border: 1px solid @gray-lighter;
 	background-color: @gray-white;
+	margin: 0;
 	margin-bottom: 40px;
+	max-width: 1200px;
+
+	img {
+		margin: 0;
+		padding: 0;
+	}
 }
 
 .room-desription {
+	padding-top: 35px;
+	padding-bottom: 50px;
+
 	&__title {
 		font-family: @font-family-heading;
 		font-size: @text-size-big;
@@ -25,6 +35,7 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		color: @gray-dark;
+		margin-bottom: 20px;
 
 		b {
 			font-size: 18px;
@@ -38,6 +49,7 @@
 		color: @gray-dark;
 		font-size: @text-size;
 		line-height: @line-height;
+		text-align: left;
 	}
 
 	&__read-more {
@@ -48,5 +60,12 @@
 		text-transform: uppercase;
 		border-bottom: 1px dashed @gray-dark;
 		font-weight: 500;
+		padding: 0;
+		padding-top: 12px;
+	}
+
+	&__btn-wrapper {
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }

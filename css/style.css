@@ -5137,6 +5137,9 @@ a {
   font-weight: normal;
   margin-bottom: 4px;
 }
+.page-header__contacts a:hover {
+  color: #ff7435;
+}
 .page-header__btn-container {
   padding: 5px 0;
 }
@@ -5224,7 +5227,7 @@ a {
   text-transform: uppercase;
   background-color: #ff7435;
   color: #ffffff;
-  padding: 14px 30px 12px 30px;
+  padding: 12px 30px 10px 30px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
 }
@@ -5236,7 +5239,7 @@ a {
   color: #fff;
 }
 .btn--icon-calendar {
-  padding: 14px 20px 12px 50px;
+  padding: 12px 20px 10px 50px;
   position: relative;
 }
 .btn--icon-calendar:before {
@@ -5303,7 +5306,17 @@ a {
 .room {
   border: 1px solid #ebebeb;
   background-color: #fafafa;
+  margin: 0;
   margin-bottom: 40px;
+  max-width: 1200px;
+}
+.room img {
+  margin: 0;
+  padding: 0;
+}
+.room-desription {
+  padding-top: 35px;
+  padding-bottom: 50px;
 }
 .room-desription__title {
   font-family: 'PT Serif Capation';
@@ -5324,6 +5337,7 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   color: #191919;
+  margin-bottom: 20px;
 }
 .room-desription__price b {
   font-size: 18px;
@@ -5335,6 +5349,7 @@ a {
   color: #191919;
   font-size: 16px;
   line-height: 22px;
+  text-align: left;
 }
 .room-desription__read-more {
   font-family: 'Fira Sans';
@@ -5344,4 +5359,10 @@ a {
   text-transform: uppercase;
   border-bottom: 1px dashed #191919;
   font-weight: 500;
+  padding: 0;
+  padding-top: 12px;
+}
+.room-desription__btn-wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
 }
