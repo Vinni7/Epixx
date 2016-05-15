@@ -1,0 +1,33 @@
+{
+  "name": "epixx",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-autoprefixer": "^3.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.1.0"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdnkspb/Epixx.git"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "Mikhail Karachev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdnkspb/Epixx/issues"
+  },
+  "homepage": "https://github.com/mdnkspb/Epixx#readme"
+}

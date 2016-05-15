@@ -1,0 +1,36 @@
+var gulp = require('gulp');
+var less = require('gulp-less');
+var path = require('path');
+
+var autoprefixer = require('gulp-autoprefixer');
+
+var browserSync = require('browser-sync');
+
+
+gulp.task('less', function () {
+  return gulp.src('./less/style.less')
+    .pipe(less({
+      paths: [ path.join(__dirname, 'less', 'includes') ]
+    }))
+    .pipe(autoprefixer({
+    	browsers: ['last 35 versions'],
+    	cascade: false
+    }))
+    .pipe(gulp.dest('css'))
+    .pipe(browserSync.reload({
+    	stream: true
+    }))
+});
+
+gulp.task('browserSync', function(){
+	browserSync({
+		server: {
+			baseDir: ''
+		},
+	})
+});
+
+gulp.task('watch',['browserSync', 'less'], function(){
+	gulp.watch('less/**/*.less', ['less']);
+	gulp.watch('*.html', browserSync.reload);
+});

@@ -4,30 +4,40 @@
 	<meta charset="UTF-8">
 	<title>Номера в Green Valley</title>
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<header class="page-header">
-		<div class="page-header__inner">
-			<a href="" class="logo"><img src="img/logo.png" width="143" height="49" alt="Green Valley"></a>
-			<nav class="main-nav">
-				<ul class="main-nav__list">
-					<li class="main-nav__item"><a href="#" class="main-nav__link">Номера</a></li>
+	<header class="page-header container">
+		<div class="page-header__inner row">
+
+
+			<a href="index.html" class="logo col-sm-2 col-sm-offset-0 col-xs-10 col-xs-offset-1"><img src="img/logo.png" width="143" height="49" alt="Green Valley" class="logo__img"></a>
+
+
+			<nav class="main-nav col-md-4 col-sm-4 col-xs-1">
+				<ul class="main-nav__list hidden-xs">
+					<li class="main-nav__item"><a href="categories.html" class="main-nav__link">Номера</a></li>
 					<li class="main-nav__item"><a href="#" class="main-nav__link">Коттедж</a></li>
 					<li class="main-nav__item"><a href="#" class="main-nav__link">Ресторан</a></li>
 					<li class="main-nav__item"><a href="#" class="main-nav__link">Отдых</a></li>
 					<li class="main-nav__item"><a href="#" class="main-nav__link">Контакты</a></li>
 				</ul>
 
-				<span class="main-nav__burger"></span>
+
+				<a src='#' class="main-nav__burger visible-xs"></a src='#'>
+
 
 			</nav>
 
-			<div class="page-header__contacts">
+
+			<div class="page-header__contacts col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 hidden-xs">
 				<a href="tel:+78127775588">+7 812 777-55-88</a>
-				г. Санкт-Петербург, Приморское ш.800
+				г. Санкт-Петербург, Приморское ш.600
 			</div>
 			
-			<a href="#" class="btn btn--icon-calendar">Забронировать</a>
+
+			<div class="page-header__btn-container col-md-2 col-sm-2 hidden-xs"><a href="#" class="btn btn--icon-calendar">Забронировать</a></div>
+
 
 		</div>
 	</header>
@@ -96,15 +106,17 @@
 	</div>
 
 	<footer class="page-footer">
-		<p class="page-footer__address">г. Санкт-Петербург Приморское ш.600</p>
-		<ul class="page-footer__social">
-			<img src="#" alt="Green Valley">
-			<li><a href="#" class="page-footer__social--vk"></a></li>
-			<li><a href="#" class="page-footer__social--inst"></a></li>
-			<li><a href="#" class="page-footer__social--fb"></a></li>
-		</ul>
+		<div class="page-footer__inner">
+			<p class="page-footer__address">г. Санкт-Петербург Приморское ш.600</p>
+			<ul class="footer-social">
+				<img src="img/logo.png" width="143" height="49" alt="Green Valley" class="logo__img">
+				<li><a href="#" class="page-footer__social--vk">v</a></li>
+				<li><a href="#" class="page-footer__social--inst">i</a></li>
+				<li><a href="#" class="page-footer__social--fb">f</a></li>
+			</ul>
 
-		<p class="page-footer__contacts"><a href="tel:+7-812-777-55-88">+7 812 777-55-88</a> <a href="mailto:info@greenvalley.ru">info@greenvalley.ru</a></p>
+			<p class="page-footer__contacts"><a href="tel:+7-812-777-55-88">+7 812 777-55-88</a> <a href="mailto:info@greenvalley.ru">info@greenvalley.ru</a></p>
+		</div>
 
 	</footer>
 
