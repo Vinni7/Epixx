@@ -9,13 +9,16 @@
 		margin: 0;
 		padding: 0;
 	}
+	&__image-wrapper {
+		padding: 0;
+	}
 }
+.room-title {
 
-.room-desription {
 	padding-top: 35px;
-	padding-bottom: 50px;
 
-	&__title {
+
+		&__title {
 		font-family: @font-family-heading;
 		font-size: @text-size-big;
 		line-height: normal;
@@ -43,6 +46,9 @@
 			color: @color-second;
 		}
 	}
+}
+.room-desription {
+	padding-bottom: 50px;
 
 	&__text {
 		font-family: @font-family;
@@ -62,10 +68,16 @@
 		font-weight: 500;
 		padding: 0;
 		padding-top: 12px;
+		float: left;
+		margin-left: 14.4%;
 	}
 
 	&__btn-wrapper {
 		margin-top: 0;
 		margin-bottom: 0;
+
+		.btn {
+			float: left;
+		}
 	}
 }
